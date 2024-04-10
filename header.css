@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Futura';
-    src: url(/static/font/futura\ medium\ bt.ttf);
+    src: url(/font/futura\ medium\ bt.ttf);
   }
   
   @font-face {
     font-family: 'Futura Bold';
-    src: url(/static/font/Futura\ Bold\ font.ttf);
+    src: url(/font/Futura\ Bold\ font.ttf);
   }
   
   body {

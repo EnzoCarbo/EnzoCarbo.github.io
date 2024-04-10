@@ -47,7 +47,7 @@
 }
 
 .intro-img {
-  background-image: url(/static/img/femme1.png);
+  background-image: url(/img/femme1.png);
   width: 80%;
   display: flex;
   justify-content: flex-end;
@@ -154,7 +154,7 @@ h2 {
 }
 
 .valeurs-ctn {
-background-image: url(/static/img/bg1.png);
+background-image: url(/img/bg1.png);
 background-repeat: no-repeat ;
 background-size: cover;
   padding: 1px;
