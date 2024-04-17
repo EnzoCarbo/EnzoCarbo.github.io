@@ -6,7 +6,8 @@ body {
 }
 
 .header {
-  background-color: rgba(67, 37, 21, 1);
+  position: absolute;
+  background-color: transparent;
   color: rgba(67, 37, 21, 1);
   padding: 10px 0;
   display: flex;
@@ -19,7 +20,7 @@ button {
   color: rgba(228, 205, 147, 1);
   border: none;
   padding: 15px 50px;
-  margin-right: 50px;
+  margin-left: 50px;
   cursor: pointer;
   border-radius: 30px;
   transition: 0.7s ease;
