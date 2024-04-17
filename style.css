@@ -84,17 +84,16 @@ p {
   justify-content: space-evenly;
   width: 100%;
   background-color: #432515;
+  height: 50vh;
 }
 
 .photo1{
   display: flex;
   justify-content: center;
   position: relative;
+  width: 60%;
 }
 
-.photo1 img{
-  width: 50%;
-}
 
 .text-realm{
   display: flex;
@@ -115,8 +114,13 @@ p {
 
 .explain{
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
+    width: 100%;
+    height: 160vh;
+    background-image: url(img/realmbgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    align-items: center;
 }
 
 .explain-text{
@@ -125,7 +129,7 @@ p {
   justify-content: center;
   align-items: center;
   font-family: 'JostMedium';
-  margin-left: -10%;
+  width: 53%;
 }
 
 .photo2{
@@ -139,4 +143,13 @@ p {
   height: 100%;
 }
 
+#photo1 {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: 65%;
+}
 
+#photo2 {
+  height: 75%;
+}
