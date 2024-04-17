@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'JostMedium';
+  src: url(font/jost.medium.ttf);
+}
+
+@font-face {
+  font-family: 'JostBold';
+  src: url(font/jost.bold.ttf);
+}
+
+
+
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
