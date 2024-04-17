@@ -10,7 +10,7 @@
 
 body {
   background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
+  font-family: 'JostMedium';
   margin: 0;
   padding: 0;
 }
@@ -36,6 +36,7 @@ button {
   transition: 0.7s ease;
   font-size: 1.2vw;
   white-space: nowrap;
+  font-family: 'JostMedium';
 }
 
 button:hover {
