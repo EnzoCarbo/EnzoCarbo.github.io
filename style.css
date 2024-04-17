@@ -78,3 +78,36 @@ p {
   margin-left: 50px;
   width: 50%;
 }
+
+.realm{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #432515;
+}
+
+.photo1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.photo1 img{
+  width: 50%;
+}
+
+.text-realm{
+  display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.text-realm h1{
+  margin-bottom: -7px;
+  color: #E4CD93;
+}
+
+.text-realm p{
+  color: #E4CD93;
+}
