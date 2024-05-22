@@ -161,3 +161,10 @@ h1 {
   margin-left: 50px;
   width: 70%;
 }
+
+.valeur h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
