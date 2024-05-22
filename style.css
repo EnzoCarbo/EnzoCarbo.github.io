@@ -162,9 +162,107 @@ h1 {
   width: 70%;
 }
 
-.valeur h2{
+.valeur-title{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.all-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+ 
+}
+
+
+.valeur-img{
+  width: 300px;
+  height:350px ;
+}
+
+.first{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+
+}
+
+.second{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.third{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.experience{
+  width: 100%;
+  height: 500px;
+  background-image: url(img/bg-expe.png);
+}
+
+.experience-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.exp1{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: #E4CD93 2px solid;
+  background-color: #E4CD93;
+  
+}
+
+.box1{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.box1-text{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.box1-img{
+  width: 50%;
+}
+
+.box2{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.qui{
+  background-image: url(img/image\ 4.png);
+  height: 759px;
+}
+
+.box-qui{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #E4CD93;
+  background-color: #E4CD93;
+}
