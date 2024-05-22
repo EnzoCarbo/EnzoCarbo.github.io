@@ -30,7 +30,6 @@ button {
   color: rgba(228, 205, 147, 1);
   border: none;
   padding: 15px 50px;
-  margin-left: 50px;
   cursor: pointer;
   border-radius: 30px;
   transition: 0.7s ease;
@@ -66,6 +65,12 @@ button:hover {
 .titre1 {
   font-size: 5vw;
   color: #E4CD93;
+  width: 50%;
+}
+
+.titre2 {
+  font-size: 5vw;
+  color: #432515;
   width: 50%;
 }
 
@@ -160,6 +165,7 @@ button:hover {
   font-size: 1.5vw;
   color: rgba(67, 37, 21, 1);
   width: 85%;
+  text-align: justify;
 }
 
 .valeur-title{
