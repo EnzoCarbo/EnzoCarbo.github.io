@@ -91,9 +91,7 @@ button:hover {
 
 .photo1{
   display: flex;
-  justify-content: center;
-  position: relative;
-  width: 60%;
+  width: 90%;
 }
 
 #photo1 {
@@ -168,10 +166,15 @@ button:hover {
   text-align: justify;
 }
 
+.valeur {
+  color: #432515;
+}
+
 .valeur-title{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 6% 0;
 }
 
 .all-content{
@@ -213,26 +216,41 @@ button:hover {
 }
 
 .experience{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 500px;
   background-image: url(img/bg-expe.png);
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 10% 0 0 0;
+    padding: 7% 0;
+
 }
 
 .experience-title{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
+  color: #d9d9d9;
+  font-size: 4.5em;
 }
 
 .exp1{
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
   border: #E4CD93 2px solid;
   background-color: #E4CD93;
-  
+  width: 30%;
+  border-radius: 25px;
+  color: #432515;
+  padding: 20px;
+  margin: 10% 0;
+  font-size: 1.5em;
 }
 
 .box1{
@@ -309,4 +327,14 @@ button:hover {
   width: 33%;
   height: 1px;
   background-color: #432515;
+}
+
+.valeur_txt {
+  text-align: center;
+}
+
+.experience_wrapper {
+  display: flex;
+  justify-content: center;
+
 }
