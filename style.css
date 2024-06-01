@@ -551,10 +551,16 @@ input[type="email"] {
   border: none;
   padding: 15px 50px;
   cursor: pointer;
-  border-radius: 30px;
-  transition: 0.7s ease;
+  border-radius: 80px;
+  transition: 0.3s ease;
   white-space: nowrap;
   font-family: 'JostMedium';
+  font-size: 2em;
+}
+
+#intro_btn:hover {
+  background-color: rgba(228, 205, 147, 1);
+  color: rgba(201, 120, 54, 1);
 }
 
 footer {
