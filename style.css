@@ -255,9 +255,9 @@ padding: 0 0 100px 0;
   flex-flow: column;
   justify-content: center;
   border: #E4CD93 2px solid;
-  background-color: #E4CD93;
   width: 40%;
   border-radius: 25px;
+  background-color: rgba(228, 205, 147, 0.9); /* Fond couleur rgb avec 90% d'opacité */
   color: #432515;
   padding: 40px;
   font-size: 1.5em;
