@@ -189,6 +189,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin: 6% 0;
+  font-size: 3em;
 }
 
 .all-content{
@@ -202,6 +203,14 @@ button:hover {
 .valeur-img{
   width: 300px;
   height:350px ;
+  background-color: #432515;
+opacity: 0.5;
+}
+
+.bg_color {
+  background-color: #432515;
+  
+
 }
 
 .first{
@@ -389,7 +398,7 @@ margin: 100px;
 .text_inspi {
   font-size: 1.5em;
   color: #432515;
-  margin: 0;
+  margin: 20px 0;
   text-align: justify;
 }
 
@@ -503,7 +512,7 @@ margin: 100px;
   font-size: 1.1em;
   color: #432515;
   text-align: justify;
-  width: 70%;
+  width: 65%;
 }
 
 .titre1_join {
@@ -515,7 +524,7 @@ margin: 100px;
   background-color: rgba(201, 120, 54, 1);
   color: rgba(228, 205, 147, 1);
   border: none;
-  padding: 15px 50px;
+  padding: 15px 25px;
   cursor: pointer;
   border-radius: 30px;
   transition: 0.7s ease;
@@ -523,6 +532,18 @@ margin: 100px;
   font-family: 'JostMedium';
   width: 70%;
 }
+
+#newsletter::placeholder {
+  color: rgba(228, 205, 147, 1);
+}
+
+input[type="email"] {
+  font-size: 1.3em; 
+  padding: 10px;
+  color: rgba(228, 205, 147, 1);;  
+}
+
+
 
 #intro_btn {
   background-color: rgba(201, 120, 54, 1);

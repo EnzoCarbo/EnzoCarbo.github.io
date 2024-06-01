@@ -67,19 +67,25 @@
         <h2 class="valeur-title">NDAO ISIKA, ELONGO, ENSEMBLE</h2>
         <div class="all-content">
             <div class="first">
+                <div class="bg_color">
                 <img class="valeur-img" src="img/tissu.png" alt="">
+            </div>
                 <h2>Sociétal</h2>
                 <p class="valeur_txt">Elevons nos identités à travers <br>ce que nous portons</p>
                 <img src="img/Vector.png" alt="">
-            </div>
+        </div>
             <div class="second">
+                <div class="bg_color">
                 <img class="valeur-img" src="img/main.png" alt="">
+            </div>
                 <h2>Social</h2>
                 <p class="valeur_txt">Créons des opportunités <br> pour d’autres. </p>
                 <img src="img/Vector.png" alt="">
             </div>
             <div class="third">
+                <div class="bg_color">
                 <img class="valeur-img" src="img/model.png" alt="">
+            </div>
                 <h2>Environnemental</h2>
                 <p class="valeur_txt">Reconnectons nous <br> à la nature</p>
                 <img src="img/Vector.png" alt="">
@@ -134,10 +140,12 @@
                     Nous puisons nos inspirations dans la diversité des cultures et symboles de l’Afrique de
                     Subsaharienne, riches en messages forts et spirituels. Le savoir-faire ancestrales sont notre
                     sources de création.
-
-                    A travers nos pièces, nous souhaitons renforcer cette connexion profonde entre nos cultures et notre
-                    identité
                 </p>
+                <p class="text_inspi">
+                    A travers nos pièces, nous souhaitons renforcer cette connexion profonde entre nos cultures et notre
+                    identité.
+                </p>
+               
             </div>
             <div class="box1-img">
                 <img class="global_img" src="img/group-photo1.png" alt="">
@@ -152,12 +160,17 @@
                 <p class="text_inspi">
                     Ce que vous portez exprime, affirme vos goûts et vos aspirations. Et lorsque votre culture fait
                     partie intégrante de votre identité, il est tout naturel de la communiquer au monde.
+                </p>
+                <p class="text_inspi">
 
                     Chaque choix vestimentaire est une invitation à la découverte de notre être, un code de lecture
                     de nos richesses intérieures.
+                </p>
+                <p class="text_inspi">
 
                     Loin d'être une simple question de tendance, intégrer des éléments de sa culture dans son style
-                    est un acte d'affirmation de soi et d’une célébration de son héritage
+                    est un acte d'affirmation de soi et d’une célébration de son héritage.
+                    
                 </p>
             </div>
         </div>
@@ -166,14 +179,14 @@
     <div class="qui">
         <div class="box-qui">
             <h1 class="titre1_qui">Qui sommes nous ?</h1>
-            <p class="text_qui">Portées par des ambitions communes et ancrées dans nos origines, nous avons fusionné nos
+            <p class="text_qui">Portées par des <b> ambitions communes et ancrées dans nos origines, </b>nous avons fusionné nos
                 projets : d'un
                 côté,
                 un engagement pour un impact environnemental positif en Afrique, de l'autre, une marque mettant en
                 lumière
                 le savoir-faire malgache.
             </p>
-            <p class="text_qui">REALM, notre marque de prêt-à-porter, est née de cette synergie, avec pour mission de
+            <p class="text_qui"><b> REALM,</b> notre marque de prêt-à-porter, est née de cette synergie, avec pour mission de
                 sublimer les
                 identités
                 africaines tout en ayant un impact positif sur le continent.</p>
@@ -183,12 +196,12 @@
         <div class="fiti-text">
             <h1 class="titre1_inspi">Deux Femmes.</h1>
             <h2 class="titre2_fiti">Entrepreneuses et portant des valeurs communes.</h2>
-            <p class="text_fiti">Tsolady M’BOKOLO née en France, elle repart au Congo à ses 7 ans et revient en France à
+            <p class="text_fiti"><b>Tsolady M’BOKOLO</b> née en France, elle repart au Congo à ses 7 ans et revient en France à
                 l’âge de 15 ans.
                 Plus tard, elle fera des études d’art et de design. Sa culture a toujours été omniprésente dans son
                 entourage familial et influence son quotidien. Pour elle, sa culture est une partie intégrante de son
                 identité.</p>
-            <p class="text_fiti">JOLY RAZAFINDRAMANANA Fitiavana, née à Madagascar. Elle grandi dans un environnement
+            <p class="text_fiti"><b>JOLY RAZAFINDRAMANANA Fitiavana,</b> née à Madagascar. Elle grandi dans un environnement
                 culturel mixte avec
                 une mère malgache et un père français. Sa mère lui a toujours appris à être au plus proche de sa culture
                 et des traditions. Un héritage culturel qu’elle porte fièrement au quotidien.</p>
@@ -219,7 +232,9 @@
                 collections inédites.
                 Inscrivez-vous à notre newsletter et soyez parmi les premiers à vivre l'expérience REALM.</p>
             <div class="button_join">
-                <button id="newsletter">Entrez votre e-mail</button>
+                <form action="/submit_email" method="post">
+                    <input id="newsletter" type="email" id="email" name="email" placeholder="Entrez votre email" required><br><br>
+                </form>
             </div>
         </div>
     </div>
