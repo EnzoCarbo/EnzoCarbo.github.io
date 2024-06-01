@@ -589,7 +589,7 @@ footer a:hover {
 .scroll-wrapper {
   display: inline-block;
   white-space: nowrap;
-  animation: defilement 60s linear infinite;
+  animation: defilement 120s linear infinite;
 }
 
 .scroll-wrapper p {
