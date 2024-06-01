@@ -418,8 +418,9 @@ margin: 100px;
 
 .fiti {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 100px;
+  align-items: center;
 }
 
 .fiti-text {
@@ -427,7 +428,7 @@ margin: 100px;
 }
 
 .fiti-img {
-  width: 45%;
+  width: 35%;
   text-align: center;
 }
 
