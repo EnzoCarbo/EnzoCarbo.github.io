@@ -100,7 +100,7 @@ button:hover {
 
 .photo1{
   display: flex;
-  width: 90%;
+  width: 50%;
 }
 
 #photo1 {
@@ -113,17 +113,21 @@ button:hover {
  justify-content: center;
  align-items: center;
  font-family: 'JostMedium';
+ width: 50%;
 }
 
-.text-realm-ctn p {
-  font-size: 1.5vw;
-  color: #E4CD93;
-  width: 50%;
-}
+
 
 .text-realm h1{
   margin-bottom: -7px;
   color: #E4CD93;
+}
+
+.realm_text {
+  color: #E4CD93;
+  font-size: 1.5vw;
+  width: 70%;
+  line-height: 2;
 }
 
 
@@ -159,13 +163,13 @@ button:hover {
 }
 
 .photo2{
-  display: flex;
-  align-items: center;
+ position: relative;
+  left: 40px;
   width: 40%;
 }
 
 #photo2 {
-  width: 85%;
+  width: 70%;
 }
 
 .explain-text p {
@@ -330,7 +334,7 @@ button:hover {
 .explain_titre_h2 {
   color: #432515;
   font-size: 2.5vw;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .border {
@@ -574,3 +578,52 @@ footer a:hover {
   color: #C97836;
 }
 
+.text-deroulant {
+  display: flex;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.scroll-wrapper {
+  display: inline-block;
+  white-space: nowrap;
+  animation: defilement 60s linear infinite;
+}
+
+.scroll-wrapper p {
+ display: inline-block;
+  margin: 30px 30px;
+  text-align: center;
+} 
+
+.scroll-wrapper > p {
+  width: 14%;
+}
+
+.text-deroulant img {
+  vertical-align: middle; 
+}
+
+@keyframes defilement {
+  0%, 50% {
+      transform: translateX(0);
+  }
+  25%, 75% {
+      transform: translateX(-70%);
+  }
+}
+
+.custom-class {
+  color: #432515;
+  font-size: 1.5em;
+}
+
+
+.defilement-img {
+  width: 10%;
+}
+
+.size {
+  width: 100%;
+  margin: 0 30px;
+}
