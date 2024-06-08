@@ -736,7 +736,7 @@ footer a:hover {
   box-sizing: border-box;
   min-height: 100%;
   width: 80%;
-  padding:20px;
+  padding:10px 0 10px 20px;
 }
 
 .ctn_plz_work2 {
@@ -766,4 +766,8 @@ footer a:hover {
   background-color: #E4CD93;
   border-color: #E4CD93;
   color: #C97836;
+}
+
+.ctn_txt_exp {
+ margin-top: 30px;
 }
