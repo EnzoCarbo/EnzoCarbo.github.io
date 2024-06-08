@@ -672,7 +672,9 @@ footer a:hover {
 
 .exp_text {
   width: 80%;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .exp_title2 {
@@ -770,4 +772,18 @@ footer a:hover {
 
 .ctn_txt_exp {
  margin-top: 30px;
+}
+
+.box2-img {
+  width: 45%;
+}
+
+@media (max-width: 1200px) {
+  .titre1_inspi {
+    font-size: 3em;
+  }
+
+  .titre2_inspi {
+    font-size: 2em;
+  }
 }
