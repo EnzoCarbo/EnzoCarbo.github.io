@@ -672,13 +672,13 @@ footer a:hover {
 
 .exp_text {
   width: 80%;
-  font-size: 1.2rem;
+  font-size: 3.2vh;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .exp_title2 {
-  font-size: 2.5rem;
+  font-size: 6.2vh;
   color: #432515;
   margin: 0;
 }
@@ -785,5 +785,33 @@ footer a:hover {
 
   .titre2_inspi {
     font-size: 2em;
+  }
+
+  .titre1_qui {
+    font-size: 3em;
+  }
+
+  .text_qui {
+    font-size: 1.1em;
+  }
+
+  .titre2_fiti {
+    font-size: 2em;
+  }
+
+  .text_fiti {
+    font-size: 1em;
+  }
+
+  .fiti-img {
+    width: 45%;
+  }
+
+  .join-text {
+    font-size: 1em;
+  }
+
+  .text_inspi {
+    font-size: 1.1em;
   }
 }
