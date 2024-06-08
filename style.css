@@ -727,7 +727,6 @@ footer a:hover {
 .ctn_plz_work {
   display: flex;
   flex-flow: column;
-  justify-content: center;
   border: #E4CD93 2px solid;
   border-radius: 25px;
   background-color: rgba(228, 205, 147, 0.9);
@@ -736,5 +735,19 @@ footer a:hover {
   box-sizing: border-box;
   min-height: 100%;
   width: 80%;
-  padding: 0 20px;
+  padding:20px;
+}
+
+.ctn_plz_work2 {
+  display: flex;
+  flex-flow: column;
+  border: #E4CD93 2px solid;
+  border-radius: 25px;
+  background-color: rgba(228, 205, 147, 0.9);
+  color: #432515;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  min-height: 100%;
+  width: 80%;
+  padding:20px;
 }
