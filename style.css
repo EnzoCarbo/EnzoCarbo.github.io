@@ -556,7 +556,7 @@ input[type="email"] {
   transition: 0.3s ease;
   white-space: nowrap;
   font-family: 'JostMedium';
-  font-size: 1em;
+  font-size: 2vh;
 }
 
 #intro_btn:hover {
@@ -813,5 +813,10 @@ footer a:hover {
 
   .text_inspi {
     font-size: 1.1em;
+  }
+  
+  .fiti {
+    display: flex;
+   justify-content: space-between;
   }
 }
