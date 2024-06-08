@@ -677,7 +677,7 @@ footer a:hover {
 .exp_title2 {
   font-size: 2.5em;
   color: #432515;
-  margin: 0 0 50px 0;
+margin: 0;
 }
 
 .experience_wrapper {
@@ -731,8 +731,8 @@ footer a:hover {
   background-color: rgba(228, 205, 147, 0.9);
   color: #432515;
   font-size: 1.5em;
-  padding: 80px;
   box-sizing: border-box;
   height: 100%;
-  width: 90%;
+  width: 80%;
+  padding: 0 20px;
 }
