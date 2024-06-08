@@ -513,6 +513,7 @@ border-radius: 20px;
   color: #432515;
   text-align: justify;
   width: 65%;
+  margin-bottom: 30px;
 }
 
 .titre1_join {
@@ -750,4 +751,19 @@ footer a:hover {
   min-height: 100%;
   width: 80%;
   padding:20px;
+}
+
+.ggls_form {
+  border: #C97836 2px solid;
+  background-color: #C97836;
+  color: #E4CD93;
+  border-radius: 30px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.ggls_form:hover {
+  background-color: #E4CD93;
+  border-color: #E4CD93;
+  color: #C97836;
 }
