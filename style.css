@@ -714,6 +714,8 @@ margin: 0;
 
 .swiper-slide.active {
   height: 80%;
+  display: flex;
+
 }
 
 .swiper-slide-active {
