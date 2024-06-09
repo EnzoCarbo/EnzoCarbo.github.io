@@ -59,7 +59,7 @@ button:hover {
 }
 
 .liens {
-  background-image: url(./img/new/homme-entête2.png);
+  background-image: url(../assets/img/new/homme-entête2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -102,7 +102,7 @@ button:hover {
 .photo1{
   display: flex;
   width: 50%;
-  background-image: url(img/new/femme-realm1.png);
+  background-image: url(../assets/img/new/femme-realm1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -147,7 +147,7 @@ button:hover {
   display: flex;
     width: 100%;
     height: 120vh;
-    background-image: url(img/realmbgimg.png);
+    background-image: url(../assets/img/realmbgimg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -246,7 +246,7 @@ border-radius: 20px;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-image: url(img/new/full-promo.png);
+  background-image: url(../assets/img/new/full-promo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -293,7 +293,7 @@ border-radius: 20px;
   width: 100%;
 }
 .qui{
-  background-image: url(img/new/duo1.png);
+  background-image: url(../assets/img/new/duo1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -366,7 +366,7 @@ border-radius: 20px;
 
 .inspi {
   margin: 100px;
-  background-image: url(img/new/bg-realm2.png);
+  background-image: url(../assets/img/new/bg-realm2.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -470,7 +470,7 @@ border-radius: 20px;
 }
 
 .sublim {
-  background-image: url(img/feuillage.png);
+  background-image: url(../assets/img/feuillage.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 28vh;
