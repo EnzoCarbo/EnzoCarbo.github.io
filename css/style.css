@@ -847,9 +847,11 @@ footer a:hover {
   }
 
   .join-text {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
+    padding: 0 10px;
+    
   }
 
   .button_join {
@@ -872,6 +874,8 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 20px 0;
+
   }
 
   .fiti-text {
@@ -880,6 +884,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
   }
 
   .titre1_inspi {
@@ -988,8 +993,65 @@ footer a:hover {
     left: 0 ;  }
 
     .explain {
-     height: 60vh;
+     height: 50vh;
     }
 
+    .experience-title {
+      font-size: 6vh;
+    }
 
+    .exp_text {
+      font-size: 2vh;
+      width: 100%;
+    }
+
+    .ctn_plz_work {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .realm {
+    height: 50vh;
+    }
+
+    .realm_text {
+      font-size: 1.9vh;
+      width: 90%;
+      padding: 10px;
+      margin: 0;
+
+    }
+
+    .text_realm {
+    width: 100%;
+    letter-spacing: 1.2;
+  }
+
+  .explain-text p{
+    font-size: 1.5vh;
+    width: 100%;
+  }
+
+  .liens {
+    width: 100%;
+    height: 50vh;
+  }
+
+  #intro_btn {
+    font-size: 1.5vh;
+    padding: 10px 20px;
+  }
+
+  .liens p {
+    font-size: 1.5vh;
+    width: 100%;
+  }
+
+  header {
+  display: none;
+  }
+
+  footer {
+    display: none;
+  }
 }
