@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'JostMedium';
-  src: url(font/jost.medium.ttf);
+  src: url(../assets/font/jost.medium.ttf);
 }
 
 @font-face {
   font-family: 'JostBold';
-  src: url(font/jost.bold.ttf);
+  src: url(../assets/font/jost.bold.ttf);
 }
 
 body {
