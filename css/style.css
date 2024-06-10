@@ -868,6 +868,11 @@ footer a:hover {
     font-size: 4vh;
   }
 
+  #img_intro
+  {
+    width: 50%;
+  }
+
   .fiti {
     display: flex;
     flex-direction: column;
@@ -914,7 +919,13 @@ footer a:hover {
   }
 
   .header {
-    width: 1%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .logo_header {
+    width: 100%;
+    padding: 10px 0;
   }
 
   .valeur_title1 {
@@ -1050,8 +1061,8 @@ footer a:hover {
     width: 100%;
   }
 
-  header {
-  display: none;
+ .menu {
+    display: none;
   }
 
   footer {
