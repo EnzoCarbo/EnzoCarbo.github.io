@@ -13,6 +13,12 @@ body {
   font-family: 'JostMedium';
   margin: 0;
   padding: 0;
+  overflow: -webkit-scrollbar;
+  -webkit-overflow-scrolling: touch;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .header {
@@ -929,11 +935,11 @@ footer a:hover {
   }
 
   .valeur_title1 {
-    font-size: 2vh;
+    font-size: 1.8vh;
   }
 
   .valeur_txt {
-    font-size: 2.3vh;
+    font-size: 2.3vw;
   }
 
   .valeur-title {
