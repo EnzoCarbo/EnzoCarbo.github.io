@@ -973,6 +973,10 @@ footer a:hover {
 
   }
 
+  .photo1 {
+    background-position-x: center;
+  }
+
   .titre1_inspi {
     font-size: 7vh;
     padding: 10px;
@@ -1073,5 +1077,10 @@ footer a:hover {
 
   footer {
     display: none;
+  }
+
+  .liens
+  {
+    background-position-x: center;
   }
 }
