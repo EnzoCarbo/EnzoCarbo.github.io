@@ -37,6 +37,5 @@ document.addEventListener('DOMContentLoaded', function() {
     swiper.slides[swiper.activeIndex].classList.add('active');
     adjustSlideSize();
 
-    // Ajuster la taille des slides à chaque redimensionnement de la fenêtre
     window.addEventListener('resize', adjustSlideSize);
 });
