@@ -1,13 +1,3 @@
-function scrollToSection(sectionId) {
-    const section = document.getElementById(sectionId);
-    const offset = window.innerHeight / 2 - section.offsetHeight / 2;
-    const topPos = section.getBoundingClientRect().top + window.scrollY - offset;
-    window.scrollTo({
-        top: topPos,
-        behavior: 'smooth'
-    });
-}
-
 document.addEventListener('DOMContentLoaded', function() {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
@@ -27,11 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function adjustSlideSize() {
         swiper.slides.forEach(slide => {
             if (slide.classList.contains('active')) {
-                slide.style.width = '50%'; 
-                slide.style.height = '100%';
+                slide.style.width = window.innerWidth <= 640 ? '100%' : '50%'; 
+                slide.style.height = window.innerWidth <= 640 ? '100%' : '100%';
             } else {
-                slide.style.width = '40%';
-                slide.style.height = '80%';
+                slide.style.width = window.innerWidth <= 640 ? '90%' : '40%';
+                slide.style.height = window.innerWidth <= 640 ? '70%' : '80%';
             }
         });
     }
@@ -46,6 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     swiper.slides[swiper.activeIndex].classList.add('active');
     adjustSlideSize();
+
+    // Ajuster la taille des slides à chaque redimensionnement de la fenêtre
+    window.addEventListener('resize', adjustSlideSize);
 });
-
-
