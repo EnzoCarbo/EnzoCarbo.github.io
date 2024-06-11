@@ -810,6 +810,10 @@ footer a:hover {
     font-size: 1.1em;
   }
 
+  .qui {
+    height: 60%;
+  }
+
   .titre2_fiti {
     font-size: 2em;
   }
@@ -841,10 +845,15 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .join-text-ctn {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .titre1_join {
@@ -853,11 +862,15 @@ footer a:hover {
   }
 
   .join-text {
-    width: 90%;
+    width: 80%;
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 25px;
     
+  }
+
+  .join-img {
+    width: 95%;
   }
 
   .button_join {
@@ -867,11 +880,11 @@ footer a:hover {
   }
 
   #join_img1 {
-    width: 200%;
+    width: 100%;
   }
 
   .titre1_sublim {
-    font-size: 4vh;
+    font-size: 7vw;
   }
 
   #img_intro
@@ -903,13 +916,14 @@ footer a:hover {
   }
 
   .titre2_fiti {
-    font-size: 4vh;
-    padding: 0 10px;
+    font-size: 7vw;
+    padding: 0 25px;
   }
 
   .text_fiti {
     font-size: 1em;
-    padding: 0 10px;
+    padding: 0 25px;
+    margin: 10px 0;
   }
 
   .box-qui {
@@ -940,16 +954,18 @@ footer a:hover {
 
   .valeur_txt {
     font-size: 2.3vw;
+    width: 102%;
   }
 
   .valeur-title {
-    font-size: 3vh;
+    font-size: 5vw;
   }
 
   .titre1_qui {
-    font-size: 5vh;
+    font-size: 8vw;
     padding: 10px;
   }
+  
 
   .text_qui {
     font-size: 2vh;
@@ -978,13 +994,13 @@ footer a:hover {
   }
 
   .titre1_inspi {
-    font-size: 7vh;
+    font-size: 11vw;
     padding: 10px;
 
   }
 
   .titre2_inspi {
-    font-size: 5vh;
+    font-size: 7vw;
     padding: 10px;
 
   }
@@ -1021,13 +1037,29 @@ footer a:hover {
     }
 
     .experience-title {
-      font-size: 6vh;
+      font-size: 10vw;
+    }
+
+    .experience {
+      height: 50vh;
+      padding: 0;
+    }
+
+    .ctn_txt_exp {
+      margin-top: 0;
     }
 
     .exp_text {
-      font-size: 2vh;
+      font-size: 3.5vw;
       width: 100%;
     }
+
+    .ctn_plz_work {
+      width: 100%;
+      padding: 10px;
+    }
+
+   
 
     .ctn_plz_work {
       width: 100%;
@@ -1052,7 +1084,7 @@ footer a:hover {
   }
 
   .explain-text p{
-    font-size: 1.5vh;
+    font-size: 2.5vw;
     width: 100%;
   }
 
@@ -1083,4 +1115,82 @@ footer a:hover {
   {
     background-position-x: center;
   }
+
+  .explain {
+    background-image: none;
+  }
+
+  .photo2 {
+    width: 45%;
+  }
+
+  #photo2 {
+    width: 90%;
+  }
+
+  .text_explain_ctn
+  {
+    width: 80%;
+  }
+
+  .box1 {
+    margin: 0;
+  }
+
+  .box1-img {
+    width: 90%;
+    background-image: url(../assets/img/new/bg-realm2.png);
+  }
+
+  .box2-img {
+    width: 60%;
+    background-image: url(../assets/img/new/bg-realm2.png);
+    background-size: 200%;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+  .inspi {
+  background-image: none;  
+}
+
+#fiti2 {
+display: none;
+}
+
+#mbokolo1 {
+  display: none;
+}
+
+.fiti-img {
+  width: 85%;
+}
+
+#vector {
+  width: 30%;
+}
+
+.first {
+  height: 33vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.second {
+  height: 33vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.third {
+  height: 33vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 }
