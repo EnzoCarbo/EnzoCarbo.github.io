@@ -985,7 +985,8 @@ footer a:hover {
 
   .text_inspi
   {
-    padding: 10px;
+    padding: 10px 25px;
+
 
   }
 
@@ -1001,7 +1002,7 @@ footer a:hover {
 
   .titre2_inspi {
     font-size: 7vw;
-    padding: 10px;
+    padding: 10px 25px;
 
   }
 
