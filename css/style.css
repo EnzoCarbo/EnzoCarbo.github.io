@@ -1239,6 +1239,11 @@ a {
 
 .realm_text {
   font-size: 2.7vw;
+  padding: 10px 0;
+}
+
+.text_qui {
+  font-size: 3.5vw;
 }
 
 }
