@@ -1202,6 +1202,14 @@ text-align: center;}
   font-size: 1.5vw;
 }
 
+.left-footer {
+gap: 10px;
+}
+
+.right-footer {
+gap: 10px;
+}
+
 .right-footer a {
   font-size: 1.5vw;
 }
@@ -1218,5 +1226,7 @@ a {
   display: flex;
     align-items: center;
     justify-content: center;
+
+}
 
 }
