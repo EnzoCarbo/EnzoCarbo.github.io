@@ -798,21 +798,27 @@ footer a:hover {
     font-size: 3em;
   }
 
+  .photo2 {
+    width: 35%;
+  }
+
+  .header {
+    padding: 10px 0;
+  }
+
   .titre2_inspi {
     font-size: 2em;
   }
 
   .titre1_qui {
-    font-size: 3em;
+    font-size: 5vw;
   }
 
   .text_qui {
     font-size: 1.1em;
   }
 
-  .qui {
-    height: 60%;
-  }
+
 
   .titre2_fiti {
     font-size: 2em;
@@ -822,6 +828,9 @@ footer a:hover {
     font-size: 1em;
   }
 
+  .valeur-title {
+    font-size: 6vw;
+  }
   .fiti-img {
     width: 45%;
   }
