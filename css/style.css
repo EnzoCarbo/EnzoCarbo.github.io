@@ -865,7 +865,7 @@ footer a:hover {
     width: 80%;
     display: flex;
     align-items: center;
-    padding: 0 25px;
+    padding: 0;
     
   }
 
@@ -920,7 +920,7 @@ footer a:hover {
   }
 
   .text_fiti {
-    font-size: 1em;
+    font-size: 3vw;
     padding: 0 25px;
     margin: 10px 0;
   }
@@ -1231,6 +1231,14 @@ a {
     align-items: center;
     justify-content: center;
 
+}
+
+.exp_title2 {
+  font-size: 5vw;
+}
+
+.realm_text {
+  font-size: 2.7vw;
 }
 
 }
